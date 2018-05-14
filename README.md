@@ -9,11 +9,7 @@
 基础概念也就是上面所说到了，笔者只是尽量以最简单的想法去理解webpack。下面就开始基础的项目构建。
 #### 2.1 项目的新建
 首先，电脑上需要`npm`,国内的话`cnpm`速度会更快些。`windows`系统下需要安装`gitbash`，或者使用自带的`powershell`，这两者都是可以的。  
-然后全局安装`webpack`
-```
-npm i webpack -g
-```
-接下来新建文件夹，并且初始化`npm`。  
+新建文件夹，并且初始化`npm`。  
 ```
 mkdir demo && cd demo && npm init 
 ```
