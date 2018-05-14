@@ -709,4 +709,4 @@ ReactDom.render(<App />, document.getElementById('app'));
 ```
 npm start
 ```
-希望可以一次成功，如果不行就再看看自己哪里有问题吧，有问题可以给笔者发邮件<rexkentzheng@qq.com>。
+希望可以一次成功，如果不行就再看看自己哪里有问题吧，有问题可以给笔者发邮件<rexkentzheng@qq.com>，或者提一个`issue`，都是可以的。
