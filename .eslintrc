@@ -1,0 +1,30 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    // 不允许以下划线命名变量或者函数，如果有特殊情况请在下面加上变量名或函数名
+    "no-underscore-dangle": ["error", {
+      "allow": [
+      ]
+    }],
+    // 后缀可以是js或者是jsx
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [0],
+    // Link组件不用必须加href属性
+    "jsx-a11y/anchor-is-valid": [0],
+    // 起别名时或者引入lodash时，防止报错
+    "import/no-unresolved": [1],
+    "import/extensions": [1],
+    "react/require-default-props": [0],
+    // href="javascript:;"
+    "no-script-url": [1],
+    //强制闭合标签
+    "react/jsx-closing-tag-location": [0]
+  }
+}
