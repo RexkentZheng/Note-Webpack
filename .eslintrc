@@ -25,6 +25,8 @@
     // href="javascript:;"
     "no-script-url": [1],
     //强制闭合标签
-    "react/jsx-closing-tag-location": [0]
+    "react/jsx-closing-tag-location": [0],
+    // 统一换行符
+    "linebreak-style": [0]
   }
 }
